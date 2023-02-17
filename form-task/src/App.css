@@ -1,0 +1,96 @@
+/* Import Fonts From Google */
+@import url(https://fonts.googleapis.com/css?family=Gayathri:100,regular,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+/* Start Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.typography_p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8692A6;
+}
+
+label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #696F79;
+    display: block;
+    margin-bottom: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.btn {
+    background: #ffffff;
+    color: #000000;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 23px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn.btn-primary {
+    background: #1565D8;
+    color: #FFFFFF;
+}
+
+.btn.btn_loading {
+    background-color: #ccc;
+}
+
+.btn.btn-primary.btn_loading {
+    background: #5f9cf3;
+}
+
+
+.btn .icon {
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    transform: translateY(-50%);
+}
+
+.shadow {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.mt {
+    margin-top: 50px;
+}
+
+/* End Global Styles */

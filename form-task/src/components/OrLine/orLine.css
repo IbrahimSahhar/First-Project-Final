@@ -1,0 +1,26 @@
+.or_box {
+    position: relative;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.or_text {
+    padding: 6px 33px;
+    margin: 0 auto;
+    background-color: #fff;
+    width: fit-content;
+    color: #BABABA;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.or_line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #F5F5F5;
+    z-index: 1;
+}

@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+:root {
+    --clrRed: #f65656;
+    --clrGreen: green;
+
+}
+
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 700px;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.card {
+    animation: scaleIn 1s forwards;
+    background: #fff;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .5);
+    text-align: center;
+    width: 25.5em;
+    height: 15em;
+    -webkit-animation: scaleIn 1s forwards;
+    position: relative;
+}
+
+.frame .center .icon,
+.frame .center .title,
+.frame .center .body,
+.frame .center .btn {
+    font-family: inherit;
+    margin: 0;
+}
+
+.frame .center .icon {
+    color: var(--clrRed);
+    display: block;
+    font-size: 1.75rem;
+    padding: 1em 0 .5em 0;
+}
+
+.frame .center .title {
+    font-weight: 700;
+    line-height: 1;
+    margin: .5em 0;
+}
+
+.frame .center .body {
+    font-size: .95rem;
+    line-height: 1.5;
+    margin: 1em 0;
+    padding: 0 1em;
+    font-size: 20px;
+}
+
+.frame .center .btn {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    transition: background 0.5s ease;
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    -ms-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+}
+
+.frame .center .btn.success {
+    background: var(--clrGreen);
+}
+
+.frame .center .btn.error {
+    background: var(--clrRed);
+
+}
+
+.frame .center .btn:hover {
+    background: darken(var(--clrRed), 5);
+}
+
+.scale-out {
+    animation: scaleOut 900ms forwards;
+    -webkit-animation: scaleOut 900ms forwards;
+}
+
+@keyframes scaleOut {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    10% {
+        transform: scale(1.075);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0);
+    }
+
+    75% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

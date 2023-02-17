@@ -1,0 +1,75 @@
+.signup_page {
+  display: grid;
+  grid-template-columns: 642px 1fr;
+}
+
+.signup_page .content_box {
+  padding: 75px 80px;
+}
+
+.signup_page .points_img {
+  position: absolute;
+  top: 200px;
+  right: 160px;
+}
+
+.signup_page .quts_mark {
+  margin-top: 200px;
+  font-family: "Gayathri";
+  font-weight: 700;
+  font-size: 96px;
+  color: #00daf7;
+  margin-bottom: -96px;
+}
+
+.signup_page .quts_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.signup_page .author {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.signup_page .corner_container {
+  text-align: right;
+  padding-right: 40px;
+}
+
+.signup_page .back_btn {
+  display: block;
+  width: fit-content;
+  margin-bottom: 55px;
+}
+
+.signup_page .back_btn button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8692a6;
+}
+
+.checkbox_container {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 14px;
+}
+
+.signup_page input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}

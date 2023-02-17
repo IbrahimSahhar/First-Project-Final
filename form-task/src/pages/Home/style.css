@@ -1,0 +1,32 @@
+.home_page h2 {
+    font-family: 'Gilroy' , sans-serif;
+    margin-bottom: 0;
+}
+
+.games_box {
+    padding-top: 28px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.games_box::-webkit-scrollbar {
+    width: 0px;
+}
+
+.games_box .game_card {
+    min-width: 440px;
+}
+
+.columns {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 45% 15%;
+    margin-top: 15px;
+}
+
+.lastPlayed__box {
+    margin-top: 20px;
+}
